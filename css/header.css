@@ -9,6 +9,10 @@ header {
   padding: 38px 48px;
 }
 
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
 nav {
   display: none;
 }
