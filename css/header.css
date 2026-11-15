@@ -50,7 +50,7 @@ nav {
   /* margin: 37px 0 0 48px; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .navigation-menu label {
         display: none;
