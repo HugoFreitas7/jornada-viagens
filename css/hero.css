@@ -1,8 +1,27 @@
 .img-hero {
-    height: 400px;
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .img-hero {
+    height: 620px;
     width: 100%;
-    background-image: url(../img/hero-mobile.jpg);
+    background-image: url(../img/hero-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  } 
+}
 
+@media screen and (min-width: 1024) {
+  .img-hero {
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
 }
