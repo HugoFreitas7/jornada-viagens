@@ -1,9 +1,18 @@
+.hero {
+  width: 100%;
+}
+
 .img-hero {
   height: 400px;
   width: 100%;
   background-image: url(../img/hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.hero h2 {
+  margin: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -13,15 +22,19 @@
     background-image: url(../img/hero-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  } 
+    background-position: center;
+  }
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .img-hero {
     height: 620px;
     width: 100%;
     background-image: url(../img/hero-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  } 
+    background-position: center;
+  }
 }
+
+
