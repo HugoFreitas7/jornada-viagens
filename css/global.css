@@ -1,7 +1,9 @@
+
 @font-face {
-  font-family: "montserrat";
-  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-family: "Montserrat-VariableFont_wght";
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
+  font-weight: 100 900;
   font-display: swap;
 }
 
@@ -39,7 +41,7 @@ button {
 }
 
 body {
-  font-family: "montserrat";
+  font-family: "Montserrat-VariableFont_wght", sans-serif;
   color: var(--text-primary-color);
 }
 
