@@ -81,7 +81,7 @@
 }
 
 @media screen and (min-width: 1920px) {
-    .offers-cards {
+    .offers-card {
         width: 1250px;
         margin: 0 auto;
     }
